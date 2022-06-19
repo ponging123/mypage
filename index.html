@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta property="og:title" content="귤-프로필링크">
+    <meta property="og:description" content="어서오">
+    <meta property="og:image" content="img.png">  
+    <meta charset="UTF-8">
+    <title>프로필 만들기</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+                }
+        body {
+            background-color: #44398a;
+        }
+        .profile {
+            width:  100px;
+            height: 100px;
+            #background-color: green;
+            border-radius: 100%;
+            border: 2px solid white;
+
+            background-image: url(img.png);
+            background-position: center;
+            background-size: cover;
+
+        }
+        .main {
+            font-size: 20px;
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            
+        }
+        .sub {
+            font-size: 14px;
+            color: white;
+            margin-top: 0px
+            margin-bottom: 30px
+        }
+        .warp{
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .warp > a {
+            width: 300px;
+            height: 50px;
+            border-radius: 30px;
+            margin-bottom: 10px;
+            background-color : white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            font-weight: bold;
+            color:#44398a;
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        .warp > a:hover {
+            background-color: #d2d2d2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="warp">
+        <div class="profile"></div>
+        <h1 class="main">귤</h1>
+        <p class="sub">귤 좋아하십니까?</p>
+        <a target="_blank" href="https://spartacodingclub.kr/">스파르타코딩클럽</a>
+        <a target="_blank" href="https://hanghae99.spartacodingclub.kr/">항해99</a>
+        <a target="_blank" href="https://chang.spartacodingclub.kr/">창업 부트캠프 창</a>
+        <a target="_blank" href="https://ddingdong.spartacodingclub.kr/">띵동코딩</a>
+    </div>
+
+</body>
+</html>
